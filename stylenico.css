@@ -1,0 +1,196 @@
+.container {
+    margin-top: 35vh;
+}
+.titulo_container{
+    margin: 0 auto;
+    background-color: rgb(170, 107, 200);
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 11px;
+    padding-top: 7px;
+}
+#nombre_activo {
+    padding-right: 45px;
+    align-items: center;
+}
+.contenido_tabla {
+    border-left: 4px solid green;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    border-right: 1px solid rgb(169, 169, 169);
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.img_cedears {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#nombre_activo_cedear {
+    display: flex;
+    padding-right: 45px;
+    align-items: center;
+}
+.Variación_diaria img {
+    width: 17px;
+    height: 27px;
+    margin-left: 23px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.Variación_diaria {
+    display: flex;
+    font-size: 10px;
+    margin-left: 10px;
+    color: green;
+}
+.compra {
+    background-color: rgba(3, 242, 171, 0.1);
+}
+.venta {
+    background-color: rgba(240, 54, 63, 0.1);
+}
+
+.container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+
+}
+.Variación_diaria_down {
+    display: flex;
+    font-size: 10px;
+    margin-left: 10px;
+    color: red;
+}
+.Variación_diaria_down img {
+    width: 17px;
+    height: 27px;
+    margin-left: 23px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.contenido_tabla_down {
+    border-left: 4px solid red;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    border-right: 1px solid rgb(169, 169, 169);
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+/* Header */ 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    z-index: 10;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .buttons {
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+  }
+
+  .buttons .ingresar a {
+    color: white;
+    margin-right: 20px;
+    background-color:#ffffff00;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+
+  .buttons .registrarse a {
+    color: white;
+    border-radius: 20px;
+    background-color: #7871f0;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+
+  .buttons .ingresar a:hover {
+    /* background-color:#7871f0; */
+    text-decoration: underline #7871f0;
+    color:#7871f0;
+  }
+
+  .buttons .registrarse a:hover {
+    box-shadow: 0px 0px 4px 1px #7871f0;
+    transform: scale(1.03);
+    transition: 0.4s linear;
+  }
+
+/* Footer */
+.color-footer {
+  background-color:grey;
+  height: 300px;
+}
+
+.formato-footer {
+  margin-top: 100px;
+  width: 100%;
+  background-color:black;
+}
+
+.formato-footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+  align-items: start;
+  justify-items: start;
+}
+
+.formato-footer .grupo-1 .box figure {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.formato-footer .grupo-1 .box img {
+  width: 180px;
+}
+
+.formato-footer .grupo-1 .box h2 {
+  color: #7871f0;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.formato-footer .grupo-1 .box p {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.formato-footer .grupo-2{
+  color: white;
+  /* margin-bottom: 25px; */
+  font-size: 15px;
+  display:flex;
+  justify-content: center;
+}

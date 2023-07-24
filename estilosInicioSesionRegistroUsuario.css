@@ -1,0 +1,173 @@
+* Body {
+  margin: 0;
+  padding-top: 135px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.section-formulario {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2% !important;
+}
+
+.section-formulario h1 h3{
+  text-align: center;
+}
+
+.form-container {
+  background-color: #dee2e6;
+  padding: 5%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.titulo-formulario {
+  margin-right: 10px; 
+  float: left;
+}
+
+.subtitulo-formulario {
+  float: right;
+}
+
+.titulos-formulario{
+  font-size: 20px;
+  color: #7871f0;
+}
+
+.input-formulario {
+  margin-bottom: 20px;
+}
+
+.chkAceptar {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-formulario-login{
+  padding: 0.5%;
+  text-align: center;
+  width: 30%;
+  margin-top: 1.5%;
+  margin-left: 35%;
+  background-color: #7871f0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.inicio-sesion {
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+}
+
+.form-footer-inicio-sesion{
+  margin-top: 15.5% !important;
+}
+
+.form-footer-registro-usuario{
+  margin-top: 3% !important;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+}
+
+.formato-footer {
+  width: 100%;
+  background-color:black;
+}
+
+.formato-footer .grupo-2{
+  color: white;
+  font-size: 15px;
+  display:flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .form-header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .btn-formulario-login {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+  }
+
+  .inicio-sesion {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1030px){
+  .inicio-sesion {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+
+  .btn-formulario-login{
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .form-header {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .btn-formulario-login {
+      margin-top: 5%;
+      width: 50%;
+      margin-left: 25%;
+  }
+
+  .inicio-sesion {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+
+  .form-footer-inicio-sesion{
+    margin-top: 150px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .section-formulario {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1% !important;
+  }
+
+  .form-container {
+    padding: 3% 5% 2% 5%;
+  }
+}
